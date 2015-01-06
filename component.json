@@ -1,0 +1,42 @@
+{
+  "name": "noflo-mailin",
+  "description": "receive email in noflo apps",
+  "author": "defel <dem_ist@nurfuerspam.de>",
+  "repo": "defel/noflo-mailin",
+  "version": "0.1.0",
+  "keywords": [],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "remotes": [
+    "https://raw.githubusercontent.com"
+  ],
+  "scripts": [
+    "index.js",
+    "components/Mailin.coffee",
+    "components/Options.coffee",
+    "components/In.coffee",
+    "components/InOptions.coffee",
+    "components/Out.coffee",
+    "components/OutOptions.coffee",
+    "components/Mail.coffee",
+    "components/Receive.coffee",
+    "components/ReceiveOptions.coffee",
+    "components/Send.coffee",
+    "components/SendOptions.coffee",
+    "components/Filter.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "Filter": "components/Filter.coffee",
+      "Mail": "components/Mail.coffee",
+      "Receive": "components/Receive.coffee",
+      "ReceiveOptions": "components/ReceiveOptions.coffee",
+      "Send": "components/Send.coffee",
+      "SendOptions": "components/SendOptions.coffee"
+    }
+  }
+}
