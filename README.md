@@ -58,6 +58,9 @@ Icon: envelope
 Description: receive email
 
 Ports: 
+
+| Port | Name   | Type   | description |
+| --- | ------- | ------ | ----------- |
 | in | options | object | output of ReceiveOptions |
 | out | mail | object| the received mail |
 
@@ -68,6 +71,9 @@ Icon: gear
 Description: options
 
 Ports:
+
+| Port | Name   | Type   | description |
+| --- | ------- | ------ | ----------- |
 | in | port | string | the smtp server will listen on this port |
 | in | username | string | username to auth |
 | in | password | string | password to auth |
@@ -80,6 +86,9 @@ Icon: envelope
 Description: send emails to
 
 Ports:
+
+| Port | Name   | Type   | description |
+| --- | ------- | ------ | ----------- |
 | in | mail | object | email to send |
 | in | options | object | smtp transport options  |
 | out | out | object |  |
@@ -91,6 +100,9 @@ Icon: gear
 Description: options
 
 Ports:
+
+| Port | Name   | Type   | description |
+| --- | ------- | ------ | ----------- |
 | in | host | string | smtp server |
 | in | port | string |smtp port |
 | in | secure | boolean | should ssl be used |
