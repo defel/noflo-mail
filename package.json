@@ -1,6 +1,6 @@
 {
   "name": "noflo-mail",
-  "description": "receive email in noflo apps",
+  "description": "receive and send emails in noflo apps",
   "version": "0.1.0",
   "author": {
     "name": "defel",
@@ -40,7 +40,7 @@
     "grunt-noflo-manifest": "~0.1.11",
     "grunt-noflo-browser": "^0.1.1"
   },
-  "keywords": [],
+  "keywords": ["noflo", "plugin", "maildev", "mailin"],
   "noflo": {
     "components": {
       "Filter": "components/Filter.coffee",
