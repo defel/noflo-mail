@@ -1,7 +1,7 @@
 {
   "name": "noflo-mail",
   "description": "receive and send emails in noflo apps",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "defel",
     "email": "dem_ist@nurfuerspam.de"
@@ -40,7 +40,12 @@
     "grunt-noflo-manifest": "~0.1.11",
     "grunt-noflo-browser": "^0.1.1"
   },
-  "keywords": ["noflo", "plugin", "maildev", "mailin"],
+  "keywords": [
+    "noflo",
+    "plugin",
+    "maildev",
+    "mailin"
+  ],
   "noflo": {
     "components": {
       "Filter": "components/Filter.coffee",
