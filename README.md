@@ -22,12 +22,12 @@ Description: filter mail by criteria
 
 Ports: 
 
-| in | field | string | the field in incoming Mail, to filter for |
-| in | accepts | string | the accepted value on filtered field |
-| in | regexp | string | the accepted regexp on filtered field | 
-| in | in | object | the incoming mail to filter |
-| out | out | object | passed if mail matches filter |
-| out | missed | object | missed if mail does not match filter |
+| in  | field   | string | the field in incoming Mail, to filter for |
+| in  | accepts | string | the accepted value on filtered field |
+| in  | regexp  | string | the accepted regexp on filtered field | 
+| in  | in      | object | the incoming mail to filter |
+| out | out     | object | passed if mail matches filter |
+| out | missed  | object | missed if mail does not match filter |
 
 ## mail/Mail
 
