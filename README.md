@@ -22,6 +22,8 @@ Description: filter mail by criteria
 
 Ports: 
 
+| Port | Name   | Type   | descriptio |
+| --- | ------- | ------ | ---------- |
 | in  | field   | string | the field in incoming Mail, to filter for |
 | in  | accepts | string | the accepted value on filtered field |
 | in  | regexp  | string | the accepted regexp on filtered field | 
