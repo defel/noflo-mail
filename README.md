@@ -22,8 +22,8 @@ Description: filter mail by criteria
 
 Ports: 
 
-| Port | Name   | Type   | descriptio |
-| --- | ------- | ------ | ---------- |
+| Port | Name   | Type   | description |
+| --- | ------- | ------ | ----------- |
 | in  | field   | string | the field in incoming Mail, to filter for |
 | in  | accepts | string | the accepted value on filtered field |
 | in  | regexp  | string | the accepted regexp on filtered field | 
@@ -39,6 +39,9 @@ Icon: envelope-o
 Description: mail
 
 Ports:
+
+| Port | Name   | Type   | description |
+| --- | ------- | ------ | ----------- |
 | in | from | string | from field |
 | in | to | string | to field |
 | in | reply_to | string | reply_to field |
